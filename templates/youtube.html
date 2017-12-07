@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>YouTube Search Results</title>
+    </head>
+    <body>
+        <header>
+            <p>Search Term:</p>
+            <h1>{{ search_term }}</h1>
+        </header>
+
+        <main>
+            {% for item in items_to_embed %}
+                <iframe src="{{ item['url'] }}"
+                width="560" height="315" frameborder="0" allowfullscreen allow="encrypted-media"></iframe>
+            {% endfor %}
+        </main>
+    </body>
+</html>

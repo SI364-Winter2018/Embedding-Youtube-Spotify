@@ -1,0 +1,3 @@
+- reminder: caching with beautiful soup and json — https://github.com/SI507-F17-apd/section-week-6
+- embedding youtube and spotify — not necessary, but something you can borrow
+- fill evaluations

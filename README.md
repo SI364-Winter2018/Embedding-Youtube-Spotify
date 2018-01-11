@@ -1,3 +1,3 @@
-- reminder: caching with beautiful soup and json — https://github.com/SI507-F17-apd/section-week-6
-- embedding youtube and spotify — not necessary, but something you can borrow
-- fill evaluations
+Example application. Does not make requests to APIs -- uses .JSON data files representing data you could possibly get from YouTube and Spotify, and shows examples of using templates to embed them.
+
+Code originally written by @anandpdoshi.
